@@ -3,3 +3,10 @@ def total_books(shelves):
 if __name__ == "__main__": 
     shelves = [12, 8, 15] 
     print(total_books(shelves))
+def total_books(shelves): 
+    return sum(shelves) 
+def max_shelf(shelves): 
+    return max(shelves) 
+if __name__ == "__main__": 
+    shelves=[12,8,15] 
+    print(total_books(shelves))
